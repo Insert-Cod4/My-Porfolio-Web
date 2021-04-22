@@ -1,0 +1,91 @@
+.section-features {
+    height:124vh;
+    padding: 40rem 0;
+    background: url(/img/blue1.png);
+    background-size: cover;
+    //background-repeat: no-repeat;
+    margin-top: .5vh;
+    position: relative;
+
+    
+
+    &__img{
+        height: 10rem;
+        border-radius: 1rem;
+    }
+
+
+    &__text-box_2{
+        position: absolute;
+        top: 170%;
+        left: 13%;
+        text-align: left;
+        font-size:200%;
+
+        @include respond(tab-port) {
+            display: none;
+            
+        } 
+
+        
+
+    }
+
+    &__pp {
+        
+        text-decoration:none;
+        font-family: "Lato", sans-serif;
+        font-weight: 0;
+        font-size: 1.2rem;
+        display: flex;
+        margin-right: 75rem;
+       // text-decoration: overline;
+        
+       @include respond(tab-port) {
+        display: none;
+        
+    } 
+    }
+
+    @include respond(tab-port) {
+        height: 190vh;
+    } 
+
+    @include respond(phone) {
+        height: 160vh;
+        background-image: url(/img/bg.jpg);
+
+    } 
+
+}
+
+.section-tours {
+    padding: 35rem 0;
+    background: url(/img/blue.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: .5vh;
+    height:125vh;
+
+
+    @include respond(tab-port) {
+        height: 255vh;
+
+    } 
+
+    @include respond(phone) {
+        height: 180vh;
+        background-image: url(/img/bg.jpg);
+
+    } 
+
+
+    @include respond(tab-port) {
+        padding: 20rem 0 10rem 0;
+    }
+
+   
+}
+
+
+
