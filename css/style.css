@@ -150,7 +150,7 @@ body {
   height: 98vh;
   padding: 35rem 0;
   background: url(../img/blue.png);
-  background-size: cover;
+  /*background-size: cover;*/
   margin-top: .5vh;
   position: relative; }
   @media only screen and (max-width: 37.5em) {
@@ -1043,7 +1043,7 @@ body {
     transform: translateY(-1.5rem) scale(1.03); }
 
 .section-features {
-  height: 124vh;
+  height: 121vh;
   padding: 40rem 0;
   background: url(/img/blue1.png);
   background-size: cover;
@@ -1085,7 +1085,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: .5vh;
-  height: 125vh; }
+  height: 122vh; }
   @media only screen and (max-width: 56.25em) {
     .section-tours {
       height: 255vh; } }
